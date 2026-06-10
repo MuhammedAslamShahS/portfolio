@@ -1,0 +1,29 @@
+.home {
+  background: #000;
+  display: flex;
+  padding-left: 20px;
+}
+
+
+.image {
+height: 90vh;
+}
+
+.home-contents {
+  padding-top: 10%;
+  padding-left: 100px;
+}
+
+.typing-text {
+  padding-top: 5%;
+}
+
+.p-text {
+  padding-top: 4%;
+  max-width: 520px;
+}
+
+.social-icons {
+  padding-top: 20%;
+  padding-left: 60px;
+}

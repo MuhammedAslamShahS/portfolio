@@ -1,15 +1,13 @@
 import mainImg from "../../assets/main.png";
 import SocialIcons from "../social-icons/SocialIcons";
 import "./Section.css";
-import bgVideo from "../../assets/bgvideo.mp4";
 import HireMeButton from "../HireMeButton/HireMeButton";
 
 const Section = () => {
     return (
         <>
             <section className="home">
-                <video className="bg-video" autoPlay loop muted playsInline src={bgVideo} />
-
+                
                 <div className="home-img">
                     <img className="image" src={mainImg} alt="profile" />
                 </div>

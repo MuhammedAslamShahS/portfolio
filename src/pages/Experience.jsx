@@ -1,7 +1,8 @@
+import ExperienceCMP from "../components/Experience/ExperienceCMP"
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <ExperienceCMP/>
   )
 }
 

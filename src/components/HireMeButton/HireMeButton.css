@@ -1,0 +1,38 @@
+.hire-me-btn {
+  width: 140px;
+  height: 30px;
+  padding: 0 20px;
+  margin-top: 5%;
+  color: white;
+  background-color: rgb(240, 55, 4);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 1rem;
+}
+
+.hire-me-btn:hover {
+  background-color: rgb(219, 36, 4);
+  transform: scale(1.2);
+}
+
+.hire-me-btn:active {
+  background-color: red;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+  .hire-me-btn {
+    margin-bottom: 0%;
+  }
+  .hire-me-btn:hover {
+    background-color: rgb(219, 36, 4);
+    transform: none;
+  }
+
+  .hire-me-btn:active {
+    background-color: red;
+  }
+}

@@ -1,0 +1,115 @@
+.services-section-main-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+
+}
+
+.services-container {
+  width: 100%;
+  height: 300px ;
+  border: 4px solid rgb(145, 7, 7);
+  border-radius: 5px;
+  text-align: center;
+  padding: 50px 20px ;
+  color: rgb(247, 3, 3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.circle-1,.circle-2{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(247, 3, 3);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2{
+  
+  font-size: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* allows cards to move to next line */
+  perspective: 1000px;
+}
+
+.cards {
+  width: 300px;
+  max-width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.4s ease;
+}
+
+.cards:hover {
+  transform: scale(2);
+  color: transparent; /* old text hide */
+}
+
+.card-1:hover::after {
+  content: "Simple Websites";
+  position: absolute;
+  color: black;
+}
+
+.card-2:hover::after {
+  content: "Database Driven";
+  position: absolute;
+  color: black;
+}
+
+.card-3:hover::after {
+  content: "Online Store";
+  position: absolute;
+  color: black;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .cards {
+    width: 45%;
+    height: 220px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .cards {
+    width: 100%;
+    height: 200px;
+  }
+
+  .cards:hover {
+    transform: scale(1.05) rotateY(360deg);
+  }
+}

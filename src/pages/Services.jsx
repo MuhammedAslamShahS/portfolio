@@ -1,7 +1,12 @@
+import ServicesComponent from "../components/servicesComponent/ServicesComponent"
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <>
+    <div className="services-expose-main-container">
+      <ServicesComponent/>
+    </div>
+    </>
   )
 }
 

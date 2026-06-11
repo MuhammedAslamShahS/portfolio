@@ -1,7 +1,10 @@
+import SkillsComponents from "../components/skills/SkillsComponents"
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <>
+    <SkillsComponents/>
+    </>
   )
 }
 

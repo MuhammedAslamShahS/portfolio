@@ -6,15 +6,15 @@ import "./Header.css";
 const Header = () => {
     return (
         <header className="header">
-            <h2>
-                Sh<span>ah</span>
-            </h2>
-
+            <NavLink to="/" style={{ textDecoration: "none" }}>
+                <h2>
+                    Sh<span>ah</span>
+                </h2>
+            </NavLink>
             <nav className="nav">
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/AboutMe">About Me</NavLink>
                 <NavLink to="/services">Services</NavLink>
                 <NavLink to="/skills">Skills</NavLink>
-                <NavLink to="/experience">Experience</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
             </nav>
 

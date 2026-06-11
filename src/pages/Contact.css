@@ -109,3 +109,11 @@
 .contact-form button:hover {
   transform: translateY(-3px);
 }
+
+@media (max-width: 768px) {
+  .contact-form {
+    display: none;
+  }
+
+ 
+}
